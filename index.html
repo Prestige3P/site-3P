@@ -1,47 +1,73 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3P - Nettoyage Professionnel</title>
-    <link rel="stylesheet" href="styles/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3P - Nettoyage Professionnel</title>
+  <link rel="stylesheet" href="styles/style.css" />
 </head>
 <body>
-    <header>
-        <h1>3P Nettoyage</h1>
-        <p>Votre partenaire de confiance pour un environnement sain et sécurisé</p>
-    </header>
-    <main>
-        <section>
-            <h2>Nos Services</h2>
-            <ul>
-                <li>🧹 Nettoyage de bureaux et locaux professionnels</li>
-                <li>🧯 Remise en état après sinistre</li>
-                <li>🛏 Nettoyage pour le syndrome de Diogène</li>
-                <li>🧽 Désinfection et décontamination</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Pourquoi choisir 3P ?</h2>
-            <ul>
-                <li>Plus de 7 ans d’expérience</li>
-                <li>Intervention rapide et discrète</li>
-                <li>Professionnels formés et assurés</li>
-                <li>Respect des normes sanitaires</li>
-            </ul>
-        </section>
-        <section style="background-color: #ffeaea;">
-            <h2>Syndrome de Diogène : intervention spécialisée</h2>
-            <p>Nous intervenons avec discrétion et humanité pour remettre en état les logements très insalubres.</p>
-        </section>
-        <section>
-            <h2>Contactez-nous</h2>
-            <p>📧 Email : <a href="mailto:contact@prestige3p.fr">contact@prestige3p.fr</a></p>
-            <p>📞 Téléphone : 06 XX XX XX XX</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 3P Nettoyage – Tous droits réservés</p>
-    </footer>
+  <header>
+    <div class="container">
+      <img src="logo-3p.png" alt="Logo 3P" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#services">Nos Services</a></li>
+          <li><a href="#diogene">Syndrome de Diogène</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Prestige 3P</h1>
+    <p>Votre partenaire de confiance pour un nettoyage extrême et professionnel</p>
+    <a href="#contact" class="btn">Demander un devis gratuit</a>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Nos Services</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Nettoyage professionnel</h3>
+        <p>Bureaux, commerces, immeubles, chantiers.</p>
+      </div>
+      <div class="card">
+        <h3>Intervention après sinistre</h3>
+        <p>Inondations, incendies, logements insalubres.</p>
+      </div>
+      <div class="card">
+        <h3>Nettoyage Diogène</h3>
+        <p>Traitement de situations complexes avec humanité.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="diogene" class="diogene">
+    <h2>Le syndrome de Diogène</h2>
+    <p>
+      Notre équipe est formée pour intervenir dans des logements concernés par le syndrome de Diogène.
+      Nous assurons un nettoyage complet, une désinfection, une désinsectisation et une remise en état
+      avec discrétion, respect et efficacité.
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contactez-nous</h2>
+    <form action="mailto:contact@prestige3p.fr" method="POST" enctype="text/plain">
+      <input type="text" name="nom" placeholder="Votre nom" required />
+      <input type="email" name="email" placeholder="Votre email" required />
+      <textarea name="message" placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Prestige 3P - Société de nettoyage - Versailles & Chartres</p>
+  </footer>
 </body>
 </html>
+
+
